@@ -7,6 +7,7 @@ Completed functions:
 	void TakeTurn(int Players[]);
 	int CheckWinner(int Players[]);
 	void DeclareWinner(int winner);
+	void TakeTurn2(int Players[]);
 
 Functions to be written:
 
@@ -15,5 +16,8 @@ Notes:
 	2:14 - Wrote main
 	2:19 - Wrote TakeTurn, made corrections in main while loop
 	2:51 - Wrote CheckWinner
+	3:00 - Wrote DeclareWinner
 	
+	3:37 - Started TakeTurn2
 	3:41 - Fixed the URGENT error in the global constants
+	3:52 - Finished TakeTurn2, added protoypes
