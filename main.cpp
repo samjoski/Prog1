@@ -47,3 +47,7 @@ void DeclareWinner (int Player[]) {
 	}
 	return;
 }
+
+void TakeTurn2 (int Players[]) {
+	
+}
