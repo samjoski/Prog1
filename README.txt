@@ -12,3 +12,4 @@ Functions to be written:
 
 Notes:
 	1:52 - Wrote Initialize
+	2:14 - Wrote main
