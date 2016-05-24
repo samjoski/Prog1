@@ -2,12 +2,20 @@
 const int NUMPLAYERS = 10;
 const int GOAL = 25;
 
+//Prototypes
+void Initialize(int Players[]);
+void TakeTurn(int Players[]);
+int CheckWinner(int Players[]);
+void DeclareWinner(int winner);
+void TakeTurn2(int Players[]);
+	
 void main() {
 	int Players[NUMPLAYERS];
 	Initialize(Players);
 	
 	while (true) {
-		TakeTurn(Players);
+		//TakeTurn(Players);
+		TakeTurn2(Players);
 		
 		if (CheckWinner(Players))
 			break;
@@ -49,5 +57,15 @@ void DeclareWinner (int Player[]) {
 }
 
 void TakeTurn2 (int Players[]) {
-	
+	for (int i=0; i<NUMPLAYERS; i++) {
+		reroll:
+		int x = (rand() % 6) + 1;	//6 sided "dice"
+		int y = (rand() % 6) + 1;	//6 sided "dice"
+		
+		Players[i] += x + y;
+		if (x == y) {
+			goto reroll;
+		}
+	}
+	return;
 }

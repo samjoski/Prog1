@@ -7,9 +7,9 @@ Completed functions:
 	void TakeTurn(int Players[]);
 	int CheckWinner(int Players[]);
 	void DeclareWinner(int winner);
+	void TakeTurn2(int Players[]);
 
 Functions to be written:
-	void TakeTurn2(int Players[]);
 
 Notes:
 	1:52 - Wrote Initialize
@@ -19,4 +19,5 @@ Notes:
 	3:00 - Wrote DeclareWinner
 	
 	3:37 - Started TakeTurn2
+	3:52 - Finished TakeTurn2, added protoypes
 	
