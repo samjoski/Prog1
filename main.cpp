@@ -1,5 +1,5 @@
 //main.cpp
-const int NUMPLAYERS = 10;
+const int NUMPLAYERS = 100;	//patched at 3:41 to 100 players
 const int GOAL = 25;
 
 void main() {
