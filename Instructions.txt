@@ -1,0 +1,41 @@
+When working in Command Line:
+
+Start a new repository:
+	Get a repo URL from GitHub
+	init <repoName>
+	add -A
+	commit -m "comment"
+	git remote add origin <URL>
+	git push -u origin master
+	
+	
+Clone existing repository:
+	clone <URL> (provided at GitHub)
+	
+Add a branch:
+	branch <branchname>		(creates branch)
+	checkout <branchname>	(goes to branch)
+	
+	checkout -b <branchname> (creates and goes to a new branch)
+
+Delete a branch:
+	branch <branchname> -d				(local branch only)
+	push origin --delete <branchname>	(local and remote branch)
+
+Saving changes:
+	add -A OR add . (Adds all files in current directory)
+	add <filename>	(<filename> is the specific file to add)
+
+	commit -m "message here"
+	commit (type multiline on next prompt, "esc :wq" to quit)
+	
+To get current branch on GitHub
+	push (if current branch exists online)
+	push --set-upstream origin <branchname> (to create the branch online)
+
+To update local branch from GitHub
+	pull (updates current branch only)
+	
+Merging branches (skips over pull requests)
+	checkout <target>	(often the master)
+	merge <from>		(the branch being merged from)
