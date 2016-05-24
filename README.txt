@@ -1,3 +1,6 @@
+FOREWORD: 	This code will not be compiled, it is
+			for version source control practice.
+
 This program is a simple dice game where each player
 takes turns rolling a dice to a goal.
 
@@ -21,3 +24,4 @@ Notes:
 	3:37 - Started TakeTurn2
 	3:41 - Fixed the URGENT error in the global constants
 	3:52 - Finished TakeTurn2, added protoypes
+	4:17 - Added a foreword to the README.
