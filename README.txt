@@ -15,3 +15,5 @@ Notes:
 	2:14 - Wrote main
 	2:19 - Wrote TakeTurn, made corrections in main while loop
 	2:51 - Wrote CheckWinner
+	
+	3:41 - Fixed the URGENT error in the global constants
