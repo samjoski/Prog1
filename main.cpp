@@ -14,7 +14,7 @@ void main() {
 	}
 	
 	DeclareWinner(Players);
-	return
+	return;
 }
 
 void Initialize (int Players[]) {
@@ -37,4 +37,13 @@ bool CheckWinner (int Players[]) {
 			return true;
 	}
 	return false;
+}
+
+void DeclareWinner (int Player[]) {
+	cout << "Winners:" < endl;
+	for (int i=0; i<NUMPLAYERS; i++) {
+		if (Player[i] >= GOAL)
+			cout << "Player " << i << endl;
+	}
+	return;
 }

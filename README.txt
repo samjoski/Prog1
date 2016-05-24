@@ -6,9 +6,9 @@ Completed functions:
 	void main();
 	void TakeTurn(int Players[]);
 	int CheckWinner(int Players[]);
+	void DeclareWinner(int winner);
 
 Functions to be written:
-	void DeclareWinner(int winner);
 
 Notes:
 	1:52 - Wrote Initialize
