@@ -6,9 +6,8 @@ void main() {
 	Initialize(Players);
 	
 	while (true) {
-		for (int i=0; i<NUMPLAYERS; i++) {
-			TakeTurn(Players);
-		}
+		TakeTurn(Players);
+		
 		if (CheckWinner(Players) != -1)
 			break;
 	}
@@ -20,6 +19,13 @@ void main() {
 void Initialize (int Players[]) {
 	for (int i=0; i<NUMPLAYERS; i++) {
 		Players[i] = 0;
+	}
+	return;
+}
+
+void TakeTurn (int Players[]) {
+	for (int i=0; i<NUMPLAYERS; i++) {
+		Players[i] += (rand() % 6) + 1;	//6 sided "dice"
 	}
 	return;
 }
