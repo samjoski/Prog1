@@ -4,6 +4,8 @@ FOREWORD: 	This code will not be compiled, it is
 This program is a simple dice game where each player
 takes turns rolling a dice to a goal.
 
+<This is testing pull-request>
+
 Completed functions:
 	void Initialize(int Players[]);
 	void main();
