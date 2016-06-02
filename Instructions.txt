@@ -8,7 +8,6 @@ Start a new repository:
 	git remote add origin <URL>
 	git push -u origin master
 	
-	
 Clone existing repository:
 	clone <URL> (provided at GitHub)
 	
@@ -19,8 +18,8 @@ Add a branch:
 	checkout -b <branchname> (creates and goes to a new branch)
 
 Delete a branch:
-	branch <branchname> -d				(local branch only)
-	push origin --delete <branchname>	(local and remote branch)
+	branch <branchname> -d				(local branch)
+	push origin --delete <branchname>	(remote branch)
 
 Saving changes:
 	add -A OR add . (Adds all files in current directory)
